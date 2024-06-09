@@ -7,6 +7,32 @@ body {
   padding: 20px;
   box-sizing: border-box;
 }
+.button {
+  width: 80vmin;
+  height: 40px;
+  margin: 20px auto;
+}
+.button a {
+  height: 1.5rem;
+  text-decoration: none;
+  font-size: 0.9rem;
+  color: black;
+  display: inline-block;
+  background-color: rgb(179, 250, 27);
+
+  padding: 3px;
+  box-sizing: border-box;
+  box-shadow: 0.5px 0.5px 1px #999;
+  border-radius: 4px;
+  flex: 2;
+  float: left;
+  margin: 2px;
+  text-align: center;
+  line-height: 1.3rem;
+}
+.button a:hover {
+  background-color: rgb(72, 225, 225);
+}
 h2,
 h1,
 h4,
