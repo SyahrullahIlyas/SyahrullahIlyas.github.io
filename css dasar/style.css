@@ -2,7 +2,6 @@ body {
   font: 1rem/2rem helvetica, arial, sans-serif;
   background-color: antiquewhite;
   width: 90vmin;
-
   margin: 20px auto 300px;
   padding: 20px;
   box-sizing: border-box;
@@ -19,13 +18,10 @@ body {
   color: black;
   display: inline-block;
   background-color: rgb(179, 250, 27);
-
   padding: 3px;
   box-sizing: border-box;
   box-shadow: 0.5px 0.5px 1px #999;
   border-radius: 4px;
-  flex: 2;
-  float: left;
   margin: 2px;
   text-align: center;
   line-height: 1.3rem;
@@ -41,6 +37,9 @@ tr td:first-child,
 span {
   text-transform: capitalize;
   font-weight: 600;
+}
+h1 {
+  margin-bottom: 20px;
 }
 .table .keterangan td {
   font-size: 0.9rem;
