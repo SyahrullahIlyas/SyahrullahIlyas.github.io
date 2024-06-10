@@ -7,7 +7,6 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
     <link rel="stylesheet" href="css dasar/reset.css" />
     <link rel="stylesheet" href="css dasar/style.css" />
-    
   </head>
   <body>
     <!-- nav  -->
@@ -22,7 +21,7 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link " aria-current="page" href="../index.html">Home</a>
+              <a class="nav-link" aria-current="page" href="../index.html">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link active" href="../belajar web programing/tag.html">Jalur Belajar</a>
@@ -41,61 +40,104 @@
     <div class="container">
       <div class="button">
         <a href="index.html">< prev</a>
-        <a href="css3.html">next ></a>
+        <a href="" style="background-color:aliceblue;">next ></a>
       </div>
-      <h1>css layouting</h1>
+      <h1>css 3</h1>
       <table class="table">
         <tr>
-          <td>display</td>
+          <td>border radius</td>
           <td>:</td>
-          <td>inline,blok, inline-blok</td>
+          <td>untuk menumpulakan sudut</td>
         </tr>
         <tr>
-          <td>dimensi</td>
+          <td>opacity</td>
           <td>:</td>
-          <td>width,height</td>
+          <td>mengatur taransparansi</td>
         </tr>
         <tr>
-          <td>overflow</td>
+          <td>RGBa & HSLa</td>
           <td>:</td>
-          <td>visible, auto, hidden,scrol</td>
+          <td>untuk memberikan warna pada elemen</td>
         </tr>
         <tr>
-          <td>box model</td>
+          <td>box shadow</td>
           <td>:</td>
-          <td>margin, padding, border, content</td>
-        </tr>
-        <tr class="keterangan">
-          <td colspan="3">
-            <p>Overlaping margin secara vertikal akan mengambil ukuran tebesar, sebaliknya jika horisontal akan menjumlahkan kedua marginnya</p>
-          </td>
+          <td>untuk memberikan bayangan pada elemen</td>
         </tr>
         <tr>
-          <td>float</td>
+          <td>RGBa & HSLa</td>
           <td>:</td>
-          <td>none, left, right</td>
-        </tr>
-        <tr class="keterangan">
-          <td colspan="3">
-            <p>Dengan memberi float, akan membuat nya keluar dari float normal dan akan di anggap tidak ada oleh elemen yang berada pada flow normal</p>
-          </td>
-        </tr>
+          <td>untuk menumpulakan sudut "(inset), x , y, blur, (spred), color"
         
-        <tr class="keterangan">
-          <td colspan="3">
-            <p>elemen yang di beri position selain <span>statik</span> dapat menggunakan properti <span>top, left,  bottom, right</span> untuk mengatur posisinya. <br> <span>relativ :</span> akan memindahkan elemen ke dimensi lain, tetapi tempat awalnya nmasih di anggap ada dan relativ terhadap posisi awalnya <br> <span>absolute :</span> akan menaganggap elemen sebelumnya hilang dan relatif terhadap elemen pembungkusnya <br> <span>fixed :</span> akan relativ terhadap window, dan akan terkunci di posisi yang di tentukan</p>
           </td>
+        </tr>
+        <tr>
+          <td>tex shadow</td>
+          <td>:</td>
+          <td>memberiak bayangan pada text</td>
+        </tr>
+        <tr>
+          <td>liniar & radial gradien</td>
+          <td>:</td>
+          <td>untuk memberikan garadasi warna bg-color:liniar gradien(sudut |arah ,awal,..,akhir, )</td>
+        </tr>
+        <tr>
+          <td>vendor prefiks</td>
+          <td>:</td>
+          <td>untuk mengatasi browser yg tidak support dengan properti css</td>
+        </tr>
+        <tr>
+          <td>filter</td>
+          <td>:</td>
+          <td>blur, brightness, contrast, saturate, grayscale, sepia, hue-rotate, ivert, opacity, drop-shadow</td>
+        </tr>
+        <tr>
+        <td>transform</td>
+        
           <tr>
-            <td>z-index</td>
+            <td><li class="list">scale</li></td>
             <td>:</td>
-            <td>untuk menentukan tumpukan terhadap sumbu <span>z</span> elemen yang di beri posisi non statik
-            </td>   
+            <td>memperbesar / memperklecil</td>
           </tr>
+          <tr>
+            <td><li class="list">ratate</li></td>
+            <td>:</td>
+            <td>memutar</td>
+          </tr>
+          <tr>
+            <td><li class="list">skew</li></td>
+            <td>:</td>
+            <td>membuat condong / miring</td>
+          </tr>
+          <tr>
+            <td><li class="list">translate</li></td>
+            <td>:</td>
+            <td>mengubah posisi</td>
+          </tr>
+      </tr>
+      <tr>
+        <td>transision</td>
+        <td>:</td>
+        <td>(property), durasi (s/ms), (fungsi), (delay)</td>
+      </tr>
+      </table>
+      <div class="kotak">
+        <div class="kotak1">ease</div>
+        <div class="kotak2">ease-in</div>
+        <div class="kotak3">ease-out</div>
+        <div class="kotak4">ease-in-out</div>
+        <div class="kotak5">linear</div>
+        <div class="kotak6">linear</div>
+      </div>
+      <table class="table">
+        <tr>
+          <td>animation</td>
+          <td>:</td>
+          <td>name,duration,timimg-fungsion, delay,interaction-count,direction,fill-mode,play-state</td>
         </tr>
       </table>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
-
   </body>
 </html>

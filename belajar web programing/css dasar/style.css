@@ -1,15 +1,27 @@
 .container {
   font: 1rem/2rem helvetica, arial, sans-serif;
-
   width: 90vmin;
-
   padding: 20px;
   box-sizing: border-box;
+  padding-bottom: 300px;
+}
+.container p {
+  font-size: 0.8rem;
 }
 .button {
-  width: 80vmin;
+  width: 30vmin;
   height: 40px;
+  position: relative;
+  right: 100px;
   margin: 20px auto;
+
+  display: flex;
+}
+.list {
+  font-weight: 200;
+}
+.next {
+  display: flex;
 }
 .button a {
   height: 1.5rem;
@@ -27,7 +39,7 @@
   line-height: 1.3rem;
 }
 .button a:hover {
-  background-color: rgb(72, 225, 225);
+  background-color: #20c997;
 }
 h2,
 h1,
@@ -59,8 +71,9 @@ h4 {
   text-decoration: underline;
   font-size: 1rem;
 }
-.table {
-  width: 90vmin;
+table {
+  margin: auto;
+  width: 100vmin;
 }
 .table tr td:first-child {
   width: 27vmin;
@@ -74,4 +87,41 @@ tr td:last-child,
   width: 0;
   margin: 0;
   padding: 10px;
+}
+.kotak {
+  width: 80vmin;
+  height: 370px;
+  box-sizing: border-box;
+}
+.kotak1 {
+  transition: 2s ease 1s;
+}
+.kotak2 {
+  transition: 2s ease-in;
+}
+.kotak3 {
+  transition: 2s ease-out;
+}
+.kotak4 {
+  transition: 2s ease-in-out;
+}
+.kotak5 {
+  transition: 2s linear;
+}
+.kotak6 {
+  transition: 2s cubic-bezier(0.24, 0.35, 0.76, 1.59);
+}
+.container .kotak div {
+  background-color: #20c997;
+  width: 60px;
+  height: 60px;
+  border: 1px solid #333;
+  font-size: 10px;
+  text-align: center;
+  line-height: 60px;
+  margin: 2px;
+}
+.kotak:hover div {
+  transform: rotate(720deg);
+  margin-left: 66vmin;
 }
