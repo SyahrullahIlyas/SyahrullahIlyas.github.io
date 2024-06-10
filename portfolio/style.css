@@ -1,14 +1,33 @@
-.jumbotron {
-  padding-top: 2rem;
-  background-color: #e2edff;
-}
 body {
   min-height: 2000px;
 }
-
-section {
-  min-height: 400px;
+.hero {
+  display: flex;
+  padding: 2rem 0.5rem 0;
+  background-color: azure;
 }
-#portfolio {
-  background-color: #e2edff;
+.heroimage {
+  width: 35%;
+  height: 50vmin;
+}
+.heroimage img {
+  width: 110%;
+}
+.heromain {
+  width: 65%;
+  height: 50vmin;
+  text-align: center;
+}
+.heromain .satu {
+  font-size: 1rem;
+}
+.heromain .dua {
+  font-size: 0.6rem;
+  line-height: 15px;
+  padding: 0;
+  margin: 0;
+}
+.heromain .sosmed img {
+  width: 15px;
+  height: 15px;
 }
