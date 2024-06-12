@@ -1,33 +1,66 @@
+.roboto-mono- {
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 2;
+  font-style: normal;
+}
 body {
-  min-height: 2000px;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 200px;
 }
-.hero {
+.container {
+  font-family: roboto-mono;
+  color: #333;
+  margin: 0;
+  padding: 10px;
+}
+.skil {
+  padding: 30px;
+}
+
+header {
+  padding: 10px;
   display: flex;
-  padding: 2rem 0.5rem 0;
-  background-color: azure;
+  flex-wrap: wrap;
+  row-gap: 10px;
+  justify-content: center;
 }
-.heroimage {
-  width: 35%;
-  height: 50vmin;
+.text {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* background-color: #eaebed;
+  box-shadow: 0 0 5px #333; */
+  padding: 10px;
+  border-radius: 1px;
 }
-.heroimage img {
-  width: 110%;
-}
-.heromain {
-  width: 65%;
-  height: 50vmin;
+.satu {
+  width: 100%;
+  font-size: 1.5em;
   text-align: center;
 }
-.heromain .satu {
-  font-size: 1rem;
+.dua {
+  font-size: 1.2em;
+  text-align: center;
 }
-.heromain .dua {
-  font-size: 0.6rem;
-  line-height: 15px;
-  padding: 0;
-  margin: 0;
+.hero {
+  width: 100%;
+  /* background-color: #dee2e6;
+  box-shadow: 0 0 5px #333; */
+  border-radius: 1px;
 }
-.heromain .sosmed img {
-  width: 15px;
-  height: 15px;
+.hero img {
+  width: 50vmin;
+  display: block;
+  margin: auto;
+  padding: 10px;
+}
+.sosmed {
+  margin-top: 10px;
+}
+.sosmed img {
+  width: 25px;
+  display: inline-block;
+  margin: 10px;
 }
