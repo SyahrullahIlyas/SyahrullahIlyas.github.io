@@ -140,7 +140,7 @@ tr td:last-child,
 }
 footer p {
   margin-bottom: 6px;
-  color: rgb(235, 238, 246);
+  color: rgb(216, 217, 218);
   font-size: 0.8em;
 }
 .logo {
@@ -155,4 +155,5 @@ footer .logo img {
 }
 .copy a {
   text-decoration: none;
+  color: rgb(71, 81, 223);
 }
