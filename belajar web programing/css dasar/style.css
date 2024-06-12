@@ -3,7 +3,6 @@
   width: 90vmin;
   padding: 20px;
   box-sizing: border-box;
-  padding-bottom: 300px;
 }
 .container p {
   font-size: 0.8rem;
@@ -51,7 +50,8 @@ span {
   font-weight: 600;
 }
 h1 {
-  margin-bottom: 20px;
+  padding-top: 30px;
+  margin-bottom: 10px;
 }
 .table .keterangan td {
   font-size: 0.9rem;
@@ -124,4 +124,35 @@ tr td:last-child,
 .kotak:hover div {
   transform: rotate(720deg);
   margin-left: 66vmin;
+}
+.footer {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(61, 62, 62);
+  height: 100px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  text-align: center;
+  align-items: center;
+  padding: 10px;
+}
+footer p {
+  margin-bottom: 6px;
+  color: rgb(235, 238, 246);
+  font-size: 0.8em;
+}
+.logo {
+  margin: 0;
+}
+footer .logo img {
+  width: 20px;
+}
+.copy {
+  margin: 20px;
+  font-size: 0.8em;
+}
+.copy a {
+  text-decoration: none;
 }
