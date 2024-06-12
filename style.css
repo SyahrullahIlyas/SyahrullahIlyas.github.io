@@ -100,10 +100,15 @@ footer .logo img {
   position: absolute;
 }
 .wa img {
+  transition: 3s;
   height: 70px;
   width: 70px;
   position: fixed;
   right: 5px;
   bottom: 100px;
   z-index: 1;
+  opacity: 0;
+}
+.munculkan img {
+  opacity: 1;
 }
