@@ -7,14 +7,11 @@
 body {
   margin: 0;
   padding: 0;
+  font-family: roboto-mono;
 }
 .container {
-  font-family: roboto-mono;
   color: #333;
   /* background-color: aqua; */
-}
-.skil {
-  padding: 30px;
 }
 
 header {
@@ -78,7 +75,7 @@ header {
 footer p {
   margin: 0;
   color: rgb(216, 217, 218);
-  font-size: 0.8em;
+  font-size: 0.9em;
 }
 .logo {
   margin: 0;
@@ -111,4 +108,37 @@ footer .logo img {
 }
 .munculkan img {
   opacity: 1;
+}
+.container-skil {
+  margin: 0 20px;
+}
+.container-skil span {
+  font-size: 1.4em;
+  text-align: center;
+  display: block;
+  font-weight: 700;
+}
+.container-skil p {
+  margin-left: 10px;
+  font-size: 1.1em;
+}
+.bg-skil {
+  background-color: rgb(240, 240, 240);
+  height: 18px;
+  border-radius: 30px;
+  margin: auto;
+}
+.skil-biru {
+  background-color: #4b66f0;
+  height: 100%;
+  border-radius: 30px;
+  text-align: center;
+  line-height: 18px;
+  color: #fff;
+  font-size: 0.7em;
+}
+.serti {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
 }
