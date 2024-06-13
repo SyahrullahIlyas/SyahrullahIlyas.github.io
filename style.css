@@ -8,6 +8,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: roboto-mono;
+  background-color: #fbfcfd;
 }
 .container {
   color: #333;
@@ -63,7 +64,7 @@ header {
   margin-top: 200px;
   display: flex;
   flex-direction: column;
-  background-color: rgb(61, 62, 62);
+  background-color: rgb(63, 63, 63);
   height: 100px;
   position: absolute;
   left: 0;
@@ -74,7 +75,7 @@ header {
 }
 footer p {
   margin: 0;
-  color: rgb(216, 217, 218);
+  color: rgb(244, 244, 247);
   font-size: 0.9em;
 }
 .logo {
@@ -89,7 +90,7 @@ footer .logo img {
 }
 .copy a {
   text-decoration: none;
-  color: rgb(71, 81, 223);
+  color: rgb(233, 229, 229);
 }
 .wa {
   background-color: aqua;
@@ -136,6 +137,9 @@ footer .logo img {
   line-height: 18px;
   color: #fff;
   font-size: 0.7em;
+}
+.serti img {
+  width: 80vmin;
 }
 .serti {
   display: grid;
