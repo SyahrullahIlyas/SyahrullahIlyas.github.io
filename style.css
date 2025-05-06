@@ -92,7 +92,7 @@ footer .logo img {
   text-decoration: none;
   color: rgb(233, 229, 229);
 }
-.wa {
+/* .wa {
   background-color: aqua;
   height: 50px;
   position: absolute;
@@ -106,7 +106,7 @@ footer .logo img {
   bottom: 100px;
   z-index: 1;
   opacity: 0;
-}
+} */
 .munculkan img {
   opacity: 1;
 }
